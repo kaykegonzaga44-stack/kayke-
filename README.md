@@ -1,2 +1,271 @@
-# kayke-
-chatbot com IA
+{
+  "exported_at": "2026-09-11T18:00:27.385Z",
+  "app": "wa.assist",
+  "entities": {
+    "Command": [
+      {
+        "reply_template": "✅ Anotado: {content}",
+        "description": "Olá! No momento, estou indisponível para atendimento. Assim que possível, retornarei sua mensagem. Agradeço pela compreensão!",
+        "active": true,
+        "keyword": "não estou disponível",
+        "type": "note",
+        "id": "6aa401a50c6d33d1c877c951",
+        "created_date": "2026-09-11T13:27:01.973000",
+        "updated_date": "2026-09-11T13:27:01.973000",
+        "created_by_id": "6aa3fee15d495a971d1eaf5a",
+        "is_sample": false
+      },
+      {
+        "reply_template": "✅ Anotado: {content}",
+        "description": "Salva uma anotação rápida",
+        "active": true,
+        "keyword": "anotar",
+        "type": "note",
+        "id": "6aa400557b5f8e73045a248f",
+        "created_date": "2026-09-11T13:21:25.935000",
+        "updated_date": "2026-09-11T13:21:25.935000",
+        "created_by_id": "6aa3fee15d495a971d1eaf5a",
+        "is_sample": false
+      },
+      {
+        "reply_template": "📋 Tarefa criada: {content}",
+        "description": "Cria uma tarefa pendente",
+        "active": true,
+        "keyword": "tarefa",
+        "type": "task",
+        "id": "6aa400557b5f8e73045a2490",
+        "created_date": "2026-09-11T13:21:25.935000",
+        "updated_date": "2026-09-11T13:21:25.935000",
+        "created_by_id": "6aa3fee15d495a971d1eaf5a",
+        "is_sample": false
+      },
+      {
+        "reply_template": "⏰ Lembrete salvo: {content}",
+        "description": "Cria um lembrete (use 'amanhã', 'hoje' ou DD/MM)",
+        "active": true,
+        "keyword": "lembrar",
+        "type": "reminder",
+        "id": "6aa400557b5f8e73045a2491",
+        "created_date": "2026-09-11T13:21:25.935000",
+        "updated_date": "2026-09-11T13:21:25.935000",
+        "created_by_id": "6aa3fee15d495a971d1eaf5a",
+        "is_sample": false
+      }
+    ],
+    "Note": [
+      {
+        "due_date": null,
+        "type": "reminder",
+        "command_keyword": "urgente",
+        "raw_message": "urgente preciso que marque essa reuniao",
+        "content": "preciso que marque essa reuniao",
+        "status": "pending",
+        "id": "6aa43f1b8a5dd20a58536c9e",
+        "created_date": "2026-09-11T17:49:15.735000",
+        "updated_date": "2026-09-11T17:49:15.735000",
+        "created_by_id": "service_9c99d36c-f043-43ea-be77-8ef3127fba30",
+        "is_sample": false
+      },
+      {
+        "due_date": null,
+        "type": "reminder",
+        "command_keyword": "urgente",
+        "raw_message": "consigo falar com ele em qual horario",
+        "content": "falar com ele em qual horario",
+        "status": "pending",
+        "id": "6aa43eaba689f0ed05a53150",
+        "created_date": "2026-09-11T17:47:23.298000",
+        "updated_date": "2026-09-11T17:47:23.298000",
+        "created_by_id": "service_9c99d36c-f043-43ea-be77-8ef3127fba30",
+        "is_sample": false
+      },
+      {
+        "due_date": null,
+        "type": "note",
+        "command_keyword": "anotar",
+        "raw_message": "anotar lista de epsera",
+        "content": "lista de epsera",
+        "status": "pending",
+        "id": "6aa43e9a61e15a9eee0e8798",
+        "created_date": "2026-09-11T17:47:06.993000",
+        "updated_date": "2026-09-11T17:47:06.993000",
+        "created_by_id": "service_9c99d36c-f043-43ea-be77-8ef3127fba30",
+        "is_sample": false
+      },
+      {
+        "due_date": "2026-09-12",
+        "type": "reminder",
+        "command_keyword": "lembrar",
+        "raw_message": "lembrar médico amanhã",
+        "content": "médico amanhã",
+        "status": "pending",
+        "id": "6aa43dd6bc73896b1a0f6ce2",
+        "created_date": "2026-09-11T17:43:50.558000",
+        "updated_date": "2026-09-11T17:43:50.558000",
+        "created_by_id": "service_9c99d36c-f043-43ea-be77-8ef3127fba30",
+        "is_sample": false
+      },
+      {
+        "due_date": null,
+        "type": "note",
+        "command_keyword": "anotar",
+        "raw_message": "anotar comprar café",
+        "content": "comprar café",
+        "status": "pending",
+        "id": "6aa43dce451eabc9a88ec8af",
+        "created_date": "2026-09-11T17:43:42.133000",
+        "updated_date": "2026-09-11T17:43:42.133000",
+        "created_by_id": "service_9c99d36c-f043-43ea-be77-8ef3127fba30",
+        "is_sample": false
+      },
+      {
+        "due_date": null,
+        "type": "note",
+        "command_keyword": "anotar",
+        "raw_message": "anotar comprar leite",
+        "content": "comprar leite",
+        "status": "pending",
+        "id": "6aa43624c0ef623500c0f865",
+        "created_date": "2026-09-11T17:11:00.034000",
+        "updated_date": "2026-09-11T17:11:00.034000",
+        "created_by_id": "6aa3fee15d495a971d1eaf5a",
+        "is_sample": false
+      },
+      {
+        "due_date": null,
+        "type": "reminder",
+        "command_keyword": "urgente",
+        "raw_message": "urgente preciso de ajuda",
+        "content": "preciso de ajuda",
+        "status": "pending",
+        "id": "6aa43621290f7fb426af84f3",
+        "created_date": "2026-09-11T17:10:57.338000",
+        "updated_date": "2026-09-11T17:10:57.338000",
+        "created_by_id": "6aa3fee15d495a971d1eaf5a",
+        "is_sample": false
+      },
+      {
+        "due_date": null,
+        "type": "reminder",
+        "command_keyword": "urgente",
+        "raw_message": "urgente preciso falar com você agora",
+        "content": "preciso falar com você agora",
+        "status": "pending",
+        "id": "6aa4360482b51f841186ba98",
+        "created_date": "2026-09-11T17:10:28.880000",
+        "updated_date": "2026-09-11T17:10:28.880000",
+        "created_by_id": "6aa3fee15d495a971d1eaf5a",
+        "is_sample": false
+      },
+      {
+        "due_date": "2026-09-12",
+        "type": "reminder",
+        "command_keyword": "lembrar",
+        "raw_message": "lembrar médico amanhã",
+        "content": "médico amanhã",
+        "status": "pending",
+        "id": "6aa40235d4b719c04549ac52",
+        "created_date": "2026-09-11T13:29:25.037000",
+        "updated_date": "2026-09-11T13:29:25.037000",
+        "created_by_id": "6aa3fee15d495a971d1eaf5a",
+        "is_sample": false
+      },
+      {
+        "due_date": null,
+        "type": "note",
+        "command_keyword": "anotar",
+        "raw_message": "anotar comprar pão",
+        "content": "comprar pão",
+        "status": "pending",
+        "id": "6aa4023215543dd1bd429645",
+        "created_date": "2026-09-11T13:29:22.460000",
+        "updated_date": "2026-09-11T13:29:22.460000",
+        "created_by_id": "6aa3fee15d495a971d1eaf5a",
+        "is_sample": false
+      },
+      {
+        "due_date": null,
+        "type": "note",
+        "command_keyword": "anotar",
+        "raw_message": "anotar teste rápido",
+        "content": "teste rápido",
+        "status": "pending",
+        "id": "6aa401fe3147ed7932a1d57e",
+        "created_date": "2026-09-11T13:28:30.422000",
+        "updated_date": "2026-09-11T13:28:30.422000",
+        "created_by_id": "6aa3fee15d495a971d1eaf5a",
+        "is_sample": false
+      },
+      {
+        "due_date": "2026-09-12",
+        "type": "reminder",
+        "command_keyword": "lembrar",
+        "raw_message": "lembrar ligar para o médico amanhã",
+        "content": "ligar para o médico amanhã",
+        "status": "done",
+        "id": "6aa400763f561afa06203911",
+        "created_date": "2026-09-11T13:21:58.069000",
+        "updated_date": "2026-09-11T13:23:51.910000",
+        "created_by_id": "6aa3fee15d495a971d1eaf5a",
+        "is_sample": false
+      },
+      {
+        "due_date": null,
+        "type": "reminder",
+        "command_keyword": "lembrar",
+        "raw_message": "lembrar ligar para o médico amanhã",
+        "content": "ligar para o médico amanhã",
+        "status": "pending",
+        "id": "6aa400661ccb1583cb77aded",
+        "created_date": "2026-09-11T13:21:42.683000",
+        "updated_date": "2026-09-11T13:21:42.683000",
+        "created_by_id": "6aa3fee15d495a971d1eaf5a",
+        "is_sample": false
+      },
+      {
+        "due_date": null,
+        "type": "reminder",
+        "command_keyword": "lembrar",
+        "raw_message": "lembrar ligar para o médico amanhã",
+        "content": "ligar para o médico amanhã",
+        "status": "pending",
+        "id": "6aa4005a1049c702e15149db",
+        "created_date": "2026-09-11T13:21:30.354000",
+        "updated_date": "2026-09-11T13:21:30.354000",
+        "created_by_id": "6aa3fee15d495a971d1eaf5a",
+        "is_sample": false
+      },
+      {
+        "due_date": null,
+        "type": "note",
+        "command_keyword": "anotar",
+        "raw_message": "anotar comprar leite e pão",
+        "content": "comprar leite e pão",
+        "status": "pending",
+        "id": "6aa4005659cccf05c5ccfda9",
+        "created_date": "2026-09-11T13:21:26.521000",
+        "updated_date": "2026-09-11T13:21:26.521000",
+        "created_by_id": "6aa3fee15d495a971d1eaf5a",
+        "is_sample": false
+      }
+    ],
+    "User": [
+      {
+        "role": "admin",
+        "id": "6aa3fee15d495a971d1eaf5a",
+        "created_date": "2026-09-11T13:15:13.917000Z",
+        "updated_date": "2026-09-11T13:15:13.917000Z",
+        "email": "kaykegonzaga43@gmail.com",
+        "full_name": "Kayke Gonzaga",
+        "disabled": null,
+        "disabled_reason": null,
+        "is_verified": true,
+        "force_password_reset": false,
+        "app_id": "6aa3fede5d495a971d1eaf51",
+        "is_service": false,
+        "collaborator_role": "editor",
+        "_app_role": "admin"
+      }
+    ]
+  }
+}
